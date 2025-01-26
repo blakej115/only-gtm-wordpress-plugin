@@ -1,0 +1,4 @@
+- Add option to change priority
+- Add checkbox to disable
+- Make it where it will stil work if "GTM-" is missing
+- Add option to delete value when deactivated

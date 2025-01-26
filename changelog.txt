@@ -1,0 +1,6 @@
+=== Only GTM ===
+
+= 1.0.0 =
+*Release Date - 26 January 2025*
+
+* Initial release
