@@ -1,7 +1,8 @@
 <?php
 
-if ( !defined('ABSPATH') ) {
-	exit; // Exit if accessed directly.
+// Don't allow file to be viewed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
 /**
@@ -9,14 +10,14 @@ if ( !defined('ABSPATH') ) {
  */
 class OnlyGTM {
 	/**
-     * GTM Options
-     */
-    private $gtm_options;
+	 * GTM Options
+	 */
+	private $gtm_options;
 
 	/**
-     * GTM ID
-     */
-    private $gtm_id;
+	 * GTM ID
+	 */
+	private $gtm_id;
 
 	/**
 	 * Get GTM ID & then add actions for the GTM codes

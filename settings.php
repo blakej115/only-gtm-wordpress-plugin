@@ -1,7 +1,8 @@
 <?php
 
-if ( !defined('ABSPATH') ) {
-	exit; // Exit if accessed directly.
+// Don't allow file to be viewed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
 class OnlyGTMSettings

@@ -9,8 +9,9 @@ Author URI: https://blakejones.dev/
 License: GPLv2 or later
 */
 
-if ( !defined('ABSPATH') ) {
-	exit; // Exit if accessed directly.
+// Don't allow file to be viewed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
 // Require the files with our classes
@@ -19,7 +20,7 @@ require_once 'gtm.php';
 
 // Call our classes, one runs in the admin, and the other on the front-end
 if ( is_admin() ) {
-    $only_gtm_settings = new OnlyGTMSettings();
+	$only_gtm_settings = new OnlyGTMSettings();
 } else {
 	$only_gtm = new OnlyGTM();
 }
